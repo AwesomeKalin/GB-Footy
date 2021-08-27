@@ -917,14 +917,27 @@
                     "direction": "down",
                     "moveSpeed": "1",
                     "animSpeed": "3",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "77e7fc23-5377-4106-85a0-8260700dde40",
+                            "command": "EVENT_ACTOR_SET_SPRITE",
+                            "args": {
+                                "actorId": "e36c04ef-fe47-42a3-8695-6779f0c54733",
+                                "spriteSheetId": "2051108b-c809-4393-a808-3d4675e90d7b"
+                            }
+                        },
+                        {
+                            "id": "7ce71203-f2f0-4209-8d01-ae977ab7ce9a",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "63f06247-de1f-47fb-9d9b-38cfcd144b24",
-                    "x": 2,
+                    "x": 1,
                     "y": 3
                 },
                 {
@@ -936,7 +949,20 @@
                     "direction": "down",
                     "moveSpeed": "1",
                     "animSpeed": "3",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "ca4a17a3-7e62-40b0-a656-7ef7e8cdc7c8",
+                            "command": "EVENT_ACTOR_SET_SPRITE",
+                            "args": {
+                                "actorId": "e36c04ef-fe47-42a3-8695-6779f0c54733",
+                                "spriteSheetId": "2051108b-c809-4393-a808-3d4675e90d7b"
+                            }
+                        },
+                        {
+                            "id": "056ecd5c-d123-4094-bcdb-be3ecf36a0db",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -1020,10 +1046,38 @@
                     "x": 6,
                     "y": 1,
                     "collisionGroup": "1"
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "e75be474-5c6a-493f-a957-1b7626407640",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "0",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "e36c04ef-fe47-42a3-8695-6779f0c54733",
+                    "x": 4,
+                    "y": 4,
+                    "paletteId": "a3134eb6-78d2-432a-816d-9a138a495e23"
                 }
             ],
             "triggers": [],
-            "type": "0"
+            "type": "0",
+            "paletteIds": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                "default-bg-6"
+            ]
         }
     ],
     "backgrounds": [
@@ -1036,7 +1090,7 @@
             "imageHeight": 144,
             "filename": "character.png",
             "inode": "175358910490846870",
-            "_v": 1630057427410
+            "_v": 1630060549241
         },
         {
             "id": "b5e25c5f-82e0-482e-b1e0-32e1e0299be7",
@@ -1047,7 +1101,7 @@
             "imageHeight": 144,
             "filename": "menu.png",
             "inode": "3377699721298276",
-            "_v": 1630057427424
+            "_v": 1630060549242
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -1058,7 +1112,7 @@
             "imageHeight": 144,
             "filename": "placeholder.png",
             "inode": "3659174697929222",
-            "_v": 1630057427410
+            "_v": 1630060549242
         }
     ],
     "spriteSheets": [
@@ -1069,7 +1123,7 @@
             "type": "actor",
             "filename": "actor.png",
             "inode": "3659174697930327",
-            "_v": 1630057427410
+            "_v": 1630060549242
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -1078,7 +1132,7 @@
             "type": "actor_animated",
             "filename": "actor_animated.png",
             "inode": "8162774325301159",
-            "_v": 1630057427410
+            "_v": 1630060549242
         },
         {
             "id": "d8873a0d-4de9-465f-b520-c166b5a66afc",
@@ -1087,7 +1141,7 @@
             "type": "actor",
             "filename": "hair.png",
             "inode": "3377699721298332",
-            "_v": 1630057427418
+            "_v": 1630060549242
         },
         {
             "id": "e87bcb4b-0c17-4f3e-afa2-a3e8139f1c42",
@@ -1096,7 +1150,7 @@
             "type": "static",
             "filename": "hair1.png",
             "inode": "3377699721298314",
-            "_v": 1630057427410
+            "_v": 1630060549242
         },
         {
             "id": "45f657f1-b807-4fc6-bfcc-5bc4ec126c0c",
@@ -1105,7 +1159,7 @@
             "type": "static",
             "filename": "hair2.png",
             "inode": "3377699721298322",
-            "_v": 1630057427410
+            "_v": 1630060549242
         },
         {
             "id": "a65d2f7d-48c0-4312-9785-578c7a3e8ade",
@@ -1114,7 +1168,34 @@
             "type": "static",
             "filename": "hair3.png",
             "inode": "3377699721298329",
-            "_v": 1630057427410
+            "_v": 1630060549242
+        },
+        {
+            "id": "e75be474-5c6a-493f-a957-1b7626407640",
+            "name": "hair_style_1",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "hair_style_1.png",
+            "inode": "2251799814060906",
+            "_v": 1630063069894
+        },
+        {
+            "id": "2051108b-c809-4393-a808-3d4675e90d7b",
+            "name": "hair_style_2",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "hair_style_2.png",
+            "inode": "8162774325355777",
+            "_v": 1630063446039
+        },
+        {
+            "id": "8188d5b3-2cf3-45af-b7be-e63a16e046ac",
+            "name": "hair_style_3",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "hair_style_3.png",
+            "inode": "6192449488401809",
+            "_v": 1630063856422
         },
         {
             "id": "16e93a84-25f6-4948-84cc-4c86fe89f026",
@@ -1123,7 +1204,7 @@
             "type": "animated",
             "filename": "start.png",
             "inode": "3940649674719465",
-            "_v": 1630057427423
+            "_v": 1630060549242
         },
         {
             "id": "d286f5fb-b40a-4a35-a06c-fe836756815e",
@@ -1132,7 +1213,7 @@
             "type": "static",
             "filename": "start1.png",
             "inode": "5629499534983425",
-            "_v": 1630057427410
+            "_v": 1630060549242
         },
         {
             "id": "19495a7e-df96-48b8-b359-2d6295fcfa86",
@@ -1141,7 +1222,7 @@
             "type": "static",
             "filename": "start2.png",
             "inode": "3659174698008841",
-            "_v": 1630057427410
+            "_v": 1630060549242
         },
         {
             "id": "23215472-dbff-43b0-990e-ef235c93126e",
@@ -1150,7 +1231,7 @@
             "type": "static",
             "filename": "start3.png",
             "inode": "3377699721298192",
-            "_v": 1630057427410
+            "_v": 1630060549242
         },
         {
             "id": "d460a629-ac73-4675-ad79-46b4e421f2d2",
@@ -1159,7 +1240,7 @@
             "type": "static",
             "filename": "start4.png",
             "inode": "3377699721298200",
-            "_v": 1630057427410
+            "_v": 1630060549242
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -1168,7 +1249,7 @@
             "type": "static",
             "filename": "static.png",
             "inode": "3940649674641328",
-            "_v": 1630057427410
+            "_v": 1630060549243
         },
         {
             "id": "b75dde2f-1b1d-49e7-9493-111141fe749f",
@@ -1177,7 +1258,7 @@
             "type": "static",
             "filename": "static_left.png",
             "inode": "5066549581520174",
-            "_v": 1630057427410
+            "_v": 1630060549242
         },
         {
             "id": "013c7796-d3e9-4530-83d3-5a355c89e52b",
@@ -1186,7 +1267,7 @@
             "type": "static",
             "filename": "static_right.png",
             "inode": "4503599628140700",
-            "_v": 1630057427410
+            "_v": 1630060549243
         }
     ],
     "palettes": [
@@ -1325,6 +1406,16 @@
                 "486878",
                 "082048"
             ]
+        },
+        {
+            "id": "a3134eb6-78d2-432a-816d-9a138a495e23",
+            "name": "Hair",
+            "colors": [
+                "E8F8E0",
+                "202010",
+                "C8C860",
+                "081000"
+            ]
         }
     ],
     "customEvents": [],
@@ -1335,7 +1426,7 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "3659174697929639",
-            "_v": 1630057427335
+            "_v": 1630060549201
         }
     ],
     "variables": [],
@@ -1345,8 +1436,8 @@
         "startY": 8,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1612,
-        "worldScrollY": 444.79998779296875,
+        "worldScrollX": 1530.4000244140625,
+        "worldScrollY": 329.6000061035156,
         "zoom": 275,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
