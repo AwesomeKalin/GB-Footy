@@ -1231,7 +1231,8 @@
                     "id": "e36c04ef-fe47-42a3-8695-6779f0c54733",
                     "x": 9,
                     "y": 10,
-                    "paletteId": "a3134eb6-78d2-432a-816d-9a138a495e23"
+                    "paletteId": "a3134eb6-78d2-432a-816d-9a138a495e23",
+                    "collisionGroup": "1"
                 },
                 {
                     "name": "",
@@ -1686,7 +1687,8 @@
                     "hit3Script": [],
                     "id": "ea986289-86fa-4eb5-bc64-ba7589aec135",
                     "x": 7,
-                    "y": 8
+                    "y": 8,
+                    "collisionGroup": "1"
                 },
                 {
                     "name": "",
@@ -1705,7 +1707,8 @@
                     "hit3Script": [],
                     "id": "1e5428a1-e6fa-4996-bca1-0304f5a8ee01",
                     "x": 9,
-                    "y": 8
+                    "y": 8,
+                    "collisionGroup": "1"
                 },
                 {
                     "name": "",
@@ -1724,7 +1727,8 @@
                     "hit3Script": [],
                     "id": "7e6cdf0a-dddf-476a-a24b-1b8b848d6b26",
                     "x": 11,
-                    "y": 8
+                    "y": 8,
+                    "collisionGroup": "1"
                 },
                 {
                     "name": "",
@@ -1854,7 +1858,8 @@
                     "id": "966a78a5-c137-4e21-8d6d-c17de3bbb3b0",
                     "x": 9,
                     "y": 10,
-                    "paletteId": "5956dfe5-ee89-44c2-84c4-fb92f827dfc6"
+                    "paletteId": "5956dfe5-ee89-44c2-84c4-fb92f827dfc6",
+                    "collisionGroup": "1"
                 },
                 {
                     "name": "",
@@ -1875,6 +1880,13 @@
                                 "y": 12,
                                 "direction": "",
                                 "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "fc58595d-54ca-419c-ac1c-e0eeffc6b864",
+                            "command": "EVENT_SET_FALSE",
+                            "args": {
+                                "variable": "1"
                             }
                         },
                         {
@@ -1907,8 +1919,8 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "77e7f1bc-8237-42a4-a5ef-f59a0c857955",
-                                "x": 11,
-                                "y": 4,
+                                "x": 8,
+                                "y": 13,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             }
@@ -1925,7 +1937,8 @@
                     "hit3Script": [],
                     "id": "5738aacc-d910-4d2f-a10b-aa90708d9094",
                     "x": 18,
-                    "y": 17
+                    "y": 17,
+                    "collisionGroup": "1"
                 }
             ],
             "triggers": []
@@ -2303,8 +2316,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "77e7f1bc-8237-42a4-a5ef-f59a0c857955",
-            "x": 923.0178571428571,
-            "y": 308.125,
+            "x": 910.017857142857,
+            "y": 305.7916666666668,
             "actors": [
                 {
                     "name": "",
@@ -2323,7 +2336,8 @@
                     "hit3Script": [],
                     "id": "756eaeb5-746c-4621-980e-05ecd76ba609",
                     "x": 5,
-                    "y": 7
+                    "y": 7,
+                    "collisionGroup": "1"
                 },
                 {
                     "name": "",
@@ -2342,7 +2356,8 @@
                     "hit3Script": [],
                     "id": "f3c02dc8-61c7-4f55-b04b-33d1f3da2012",
                     "x": 7,
-                    "y": 7
+                    "y": 7,
+                    "collisionGroup": "1"
                 },
                 {
                     "name": "",
@@ -2361,7 +2376,8 @@
                     "hit3Script": [],
                     "id": "1f9fbe8b-a0fb-491f-9d2a-46596ab065d4",
                     "x": 9,
-                    "y": 7
+                    "y": 7,
+                    "collisionGroup": "1"
                 },
                 {
                     "name": "",
@@ -2380,7 +2396,8 @@
                     "hit3Script": [],
                     "id": "eb29ddf6-e2dc-4c65-afdd-82cab480a81b",
                     "x": 11,
-                    "y": 7
+                    "y": 7,
+                    "collisionGroup": "1"
                 },
                 {
                     "name": "",
@@ -2400,7 +2417,8 @@
                     "id": "b30e418e-714b-4602-9152-bc2c892f5fa4",
                     "x": 6,
                     "y": 10,
-                    "paletteId": "c898d6cf-3beb-43a7-b990-3f6d4d4212d2"
+                    "paletteId": "c898d6cf-3beb-43a7-b990-3f6d4d4212d2",
+                    "collisionGroup": "1"
                 },
                 {
                     "name": "",
@@ -2420,7 +2438,8 @@
                     "id": "85178f04-285d-4859-aafb-d8f82ecda012",
                     "x": 8,
                     "y": 10,
-                    "paletteId": "c898d6cf-3beb-43a7-b990-3f6d4d4212d2"
+                    "paletteId": "c898d6cf-3beb-43a7-b990-3f6d4d4212d2",
+                    "collisionGroup": "1"
                 },
                 {
                     "name": "",
@@ -2469,7 +2488,34 @@
                     "direction": "down",
                     "moveSpeed": "1",
                     "animSpeed": "3",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "314bbe2f-dc46-499c-b836-bbca17ea6e5c",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "3b0473b8-86d6-43b8-9def-693973bea8be",
+                                "x": 8,
+                                "y": 12,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "9af36570-ddd3-4b2f-9f31-2463dec92699",
+                            "command": "EVENT_SET_VALUE",
+                            "args": {
+                                "variable": "2",
+                                "value": {
+                                    "type": "number",
+                                    "value": 1
+                                }
+                            }
+                        },
+                        {
+                            "id": "aa72007b-9105-467c-9ad5-9e89a964962d",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -2586,6 +2632,1288 @@
                     "height": 1
                 }
             ]
+        },
+        {
+            "name": "Team Select Brazil",
+            "backgroundId": "1d933d57-bb7f-46dc-a471-522d3cb06816",
+            "width": 20,
+            "height": 18,
+            "collisions": [],
+            "tileColors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "id": "3b0473b8-86d6-43b8-9def-693973bea8be",
+            "x": 1104.2222222222215,
+            "y": 301.35555691189234,
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "bd6c59a9-7e90-4c27-94d5-910b62ec38ca",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "1304c102-adb9-4ef5-af02-35b0c439d0b8",
+                    "x": 5,
+                    "y": 7
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "0647bbf4-be99-4a7b-b28b-f737bef5e0a6",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "61934446-799f-49eb-9f45-c27cceac9e95",
+                    "x": 7,
+                    "y": 7
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "03d2985f-7bd6-49c5-9135-502fb23d7674",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "26ba97c4-5346-4709-bff1-2514f2b298a0",
+                    "x": 9,
+                    "y": 7
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "64b3cef5-f606-491f-8497-6b408bc2e4a9",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "bb2965c3-76cf-48d2-9b96-be87deeebc83",
+                    "x": 11,
+                    "y": 7
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "b75dde2f-1b1d-49e7-9493-111141fe749f",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [
+                        {
+                            "id": "47472289-8739-4fb8-86b1-0faa3f397403",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "77e7f1bc-8237-42a4-a5ef-f59a0c857955",
+                                "x": 8,
+                                "y": 13,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "c07837c4-95a4-41c9-8c69-b227031a448d",
+                            "command": "EVENT_SET_VALUE",
+                            "args": {
+                                "variable": "2",
+                                "value": {
+                                    "type": "number",
+                                    "value": 0
+                                }
+                            }
+                        },
+                        {
+                            "id": "3a81378f-0139-47d7-8850-1637a7bafec9",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "168a8c68-1aa7-423a-89b2-a72bf994498d",
+                    "x": 3,
+                    "y": 10
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "013c7796-d3e9-4530-83d3-5a355c89e52b",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "c37ca6ae-3e54-4fab-b26f-74a06515ce09",
+                    "x": 15,
+                    "y": 10
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "533b34ee-9538-4366-be1f-9a90d170b9b6",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "733813fa-668d-41ae-a4f9-833c4e6c3bbc",
+                    "x": 6,
+                    "y": 10,
+                    "paletteId": "5c117628-1e65-44b2-9f9e-ba4e235e7b5c"
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "4015ba16-f8f8-41b2-8fac-5239857e17b3",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "b19fc192-3eae-4d2c-aafd-d90b0240cefb",
+                    "x": 8,
+                    "y": 10,
+                    "paletteId": "5c117628-1e65-44b2-9f9e-ba4e235e7b5c"
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": true,
+                    "spriteSheetId": "fef62f07-f289-4269-b820-e6b390a20511",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "2",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "642a06e3-d146-4af3-a1b7-b5a72b4cc1e7",
+                    "x": 10,
+                    "y": 10
+                }
+            ],
+            "triggers": [
+                {
+                    "name": "",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "135c3c88-a40c-4147-8b31-b06d263c0cd5",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "0666945b-6228-46b8-94d3-67c14df208d6",
+                                "x": 9,
+                                "y": 12,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "aaf6e191-a80a-4001-9747-80f9dc5f1bc0",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "ded7385d-9bfe-4edc-baaa-19f376d56c1b",
+                    "x": 0,
+                    "y": 16,
+                    "width": 1,
+                    "height": 1
+                },
+                {
+                    "name": "",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "567c4c35-50ad-4578-89ca-8c38a6fd0064",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "0666945b-6228-46b8-94d3-67c14df208d6",
+                                "x": 9,
+                                "y": 12,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "0816aa23-13a4-47f6-8d3f-9f6564b9f42f",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "df4e19d3-fbc8-47ca-86a3-cbd2aee7519c",
+                    "x": 1,
+                    "y": 16,
+                    "width": 1,
+                    "height": 1
+                },
+                {
+                    "name": "",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "f38ad5bb-c3e4-470b-9916-5eed15d5fa35",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "0666945b-6228-46b8-94d3-67c14df208d6",
+                                "x": 9,
+                                "y": 12,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "57ab0b61-9263-48a2-baf7-f3869b536fa9",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "f9f26606-fa1c-4425-8b05-96b1587862f0",
+                    "x": 0,
+                    "y": 17,
+                    "width": 1,
+                    "height": 1
+                },
+                {
+                    "name": "",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "c2db6774-7f4f-4e7b-bbd4-b2f2251b3f6d",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "0666945b-6228-46b8-94d3-67c14df208d6",
+                                "x": 9,
+                                "y": 12,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "3b551510-b47a-49c1-a562-48fb9c1d4c51",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "9115e5d6-039d-4ebf-bf71-3b203c189e3a",
+                    "x": 1,
+                    "y": 17,
+                    "width": 1,
+                    "height": 1
+                }
+            ]
+        },
+        {
+            "name": "Team Select Spain",
+            "backgroundId": "1d933d57-bb7f-46dc-a471-522d3cb06816",
+            "width": 20,
+            "height": 18,
+            "collisions": [],
+            "tileColors": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+            ],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "id": "4a217560-e186-49fa-ae23-9772ef5c716e",
+            "x": 1016.5333658854165,
+            "y": 496.7333374023439,
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "bd6c59a9-7e90-4c27-94d5-910b62ec38ca",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "06341d20-a23b-4e2f-ab96-7cf0c474eee4",
+                    "x": 5,
+                    "y": 7
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "0647bbf4-be99-4a7b-b28b-f737bef5e0a6",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "eb1bfc44-ed6a-42ff-bff8-27e1c289778c",
+                    "x": 7,
+                    "y": 7
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "03d2985f-7bd6-49c5-9135-502fb23d7674",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "134165d3-1804-4216-b6bc-eead5f832fb7",
+                    "x": 9,
+                    "y": 7
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "64b3cef5-f606-491f-8497-6b408bc2e4a9",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "89c25375-0e3b-47d6-9ac7-4e3d2428dd54",
+                    "x": 11,
+                    "y": 7
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "b75dde2f-1b1d-49e7-9493-111141fe749f",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "291bf253-c19a-4259-829f-b805f2a77492",
+                    "x": 3,
+                    "y": 10
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "013c7796-d3e9-4530-83d3-5a355c89e52b",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "80a81bd2-be79-4393-b513-5633c8d06c99",
+                    "x": 15,
+                    "y": 10
+                }
+            ],
+            "triggers": [
+                {
+                    "name": "",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "f1cb24cd-b0ed-408b-82ab-814b75a53c92",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "0666945b-6228-46b8-94d3-67c14df208d6",
+                                "x": 9,
+                                "y": 12,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "8cad5cd9-5d71-4d2d-add9-b4adad847888",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "98d840d1-ca9a-4a13-93f0-026f3df4b46f",
+                    "x": 0,
+                    "y": 16,
+                    "width": 1,
+                    "height": 1
+                },
+                {
+                    "name": "",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "3e364ad0-8c9d-455c-a88d-03cbd31bd541",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "0666945b-6228-46b8-94d3-67c14df208d6",
+                                "x": 9,
+                                "y": 12,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "4aea9974-8a76-4431-8926-e8d735b245be",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "4bf66f10-a621-4f13-ac9a-1280d410f8de",
+                    "x": 1,
+                    "y": 16,
+                    "width": 1,
+                    "height": 1
+                },
+                {
+                    "name": "",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "f16753c7-27c9-49ae-b64d-3d406d2ae858",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "0666945b-6228-46b8-94d3-67c14df208d6",
+                                "x": 9,
+                                "y": 12,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "d5d55e4a-2fb5-4a00-b593-48f4b39fffed",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "83619450-ca64-42dd-871d-9018075eb7ad",
+                    "x": 0,
+                    "y": 17,
+                    "width": 1,
+                    "height": 1
+                },
+                {
+                    "name": "",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "8f8549f3-19f4-4a95-a0b9-d30e066dab25",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "0666945b-6228-46b8-94d3-67c14df208d6",
+                                "x": 9,
+                                "y": 12,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "050ea574-f31f-4516-be02-6cf33f694f1f",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "f1e094b8-5b89-4947-9acf-eb7c73a5997c",
+                    "x": 1,
+                    "y": 17,
+                    "width": 1,
+                    "height": 1
+                }
+            ]
         }
     ],
     "backgrounds": [
@@ -2598,7 +3926,7 @@
             "imageHeight": 144,
             "filename": "character.png",
             "inode": "175358910490846870",
-            "_v": 1630060549241
+            "_v": 1630337179787
         },
         {
             "id": "b5e25c5f-82e0-482e-b1e0-32e1e0299be7",
@@ -2609,7 +3937,7 @@
             "imageHeight": 144,
             "filename": "menu.png",
             "inode": "3377699721298276",
-            "_v": 1630060549242
+            "_v": 1630337179787
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -2620,7 +3948,7 @@
             "imageHeight": 144,
             "filename": "placeholder.png",
             "inode": "3659174697929222",
-            "_v": 1630060549242
+            "_v": 1630337179787
         },
         {
             "id": "1d933d57-bb7f-46dc-a471-522d3cb06816",
@@ -2631,7 +3959,7 @@
             "imageHeight": 144,
             "filename": "team.png",
             "inode": "5629499535059555",
-            "_v": 1630072461843
+            "_v": 1630337179787
         }
     ],
     "spriteSheets": [
@@ -2642,7 +3970,7 @@
             "type": "actor",
             "filename": "actor.png",
             "inode": "3659174697930327",
-            "_v": 1630060549242
+            "_v": 1630337179621
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -2651,7 +3979,70 @@
             "type": "actor_animated",
             "filename": "actor_animated.png",
             "inode": "8162774325301159",
-            "_v": 1630060549242
+            "_v": 1630337179621
+        },
+        {
+            "id": "641a11b2-d1ba-4c67-bbcb-8b23bc89d895",
+            "name": "brazil",
+            "numFrames": 1.4375,
+            "type": "animated",
+            "filename": "brazil.png",
+            "inode": "18295873486337842",
+            "_v": 1630338578955
+        },
+        {
+            "id": "533b34ee-9538-4366-be1f-9a90d170b9b6",
+            "name": "brazil1",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "brazil1.png",
+            "inode": "24488322973890694",
+            "_v": 1630338606629
+        },
+        {
+            "id": "4015ba16-f8f8-41b2-8fac-5239857e17b3",
+            "name": "brazil2",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "brazil2.png",
+            "inode": "4503599627487403",
+            "_v": 1630338694423
+        },
+        {
+            "id": "fef62f07-f289-4269-b820-e6b390a20511",
+            "name": "brazil_text",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "brazil_text.png",
+            "inode": "9570149208655273",
+            "_v": 1630339934582
+        },
+        {
+            "id": "d2c16c16-ec44-4b0d-829b-8fe5f8ea0802",
+            "name": "brazil_text1",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "brazil_text1.png",
+            "inode": "14073748835556589",
+            "_v": 1630339639755
+        },
+        {
+            "id": "395b1302-18a6-44e9-b909-4cadce90a6ba",
+            "name": "brazil_text2",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "brazil_text2.png",
+            "inode": "55169095435305136",
+            "_v": 1630339691102
+        },
+        {
+            "id": "94d2364f-4b28-4fb7-90f7-2633c1003f2a",
+            "name": "brazil_text3",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "brazil_text3.png",
+            "inode": "8162774324670467",
+            "_v": 1630339721051
         },
         {
             "id": "070f5d4f-7925-4af0-9e0d-57612fb53151",
@@ -2660,7 +4051,7 @@
             "type": "actor",
             "filename": "face.png",
             "inode": "2251799814652025",
-            "_v": 1630065786718
+            "_v": 1630337179621
         },
         {
             "id": "53e60e2a-98af-47ae-a0f0-685a22156958",
@@ -2669,7 +4060,7 @@
             "type": "static",
             "filename": "face1.png",
             "inode": "2814749768073370",
-            "_v": 1630065869835
+            "_v": 1630337179621
         },
         {
             "id": "5606c075-3a4f-4408-ba43-6de11243bde7",
@@ -2678,7 +4069,7 @@
             "type": "static",
             "filename": "face1_back.png",
             "inode": "11540474045530763",
-            "_v": 1630068710571
+            "_v": 1630337179621
         },
         {
             "id": "96f5696f-1186-4dda-98ff-73ff781ae525",
@@ -2687,7 +4078,7 @@
             "type": "animated",
             "filename": "face1_f.png",
             "inode": "4503599628114431",
-            "_v": 1630067429329
+            "_v": 1630337179621
         },
         {
             "id": "791a879d-d776-44f9-9ca5-0f126b7bdaf2",
@@ -2696,7 +4087,7 @@
             "type": "static",
             "filename": "face1_front.png",
             "inode": "5066549581534666",
-            "_v": 1630066559095
+            "_v": 1630337179621
         },
         {
             "id": "f9a46df7-74a6-4377-abe1-019d3a4e7359",
@@ -2705,7 +4096,7 @@
             "type": "static",
             "filename": "face2.png",
             "inode": "3377699721494699",
-            "_v": 1630065904443
+            "_v": 1630337179621
         },
         {
             "id": "f6309362-12b7-45fb-ac48-6a9248d9b4f9",
@@ -2714,7 +4105,7 @@
             "type": "animated",
             "filename": "face2_f.png",
             "inode": "7036874417790589",
-            "_v": 1630067619709
+            "_v": 1630337179621
         },
         {
             "id": "939dec2f-f3e0-4989-96d9-e3839eff5db9",
@@ -2723,7 +4114,7 @@
             "type": "static",
             "filename": "face3.png",
             "inode": "8444249302042113",
-            "_v": 1630065961389
+            "_v": 1630337179621
         },
         {
             "id": "d8873a0d-4de9-465f-b520-c166b5a66afc",
@@ -2732,7 +4123,7 @@
             "type": "actor",
             "filename": "hair.png",
             "inode": "3377699721298332",
-            "_v": 1630060549242
+            "_v": 1630337179621
         },
         {
             "id": "e87bcb4b-0c17-4f3e-afa2-a3e8139f1c42",
@@ -2741,7 +4132,7 @@
             "type": "static",
             "filename": "hair1.png",
             "inode": "3377699721298314",
-            "_v": 1630060549242
+            "_v": 1630337179621
         },
         {
             "id": "45f657f1-b807-4fc6-bfcc-5bc4ec126c0c",
@@ -2750,7 +4141,7 @@
             "type": "static",
             "filename": "hair2.png",
             "inode": "3377699721298322",
-            "_v": 1630060549242
+            "_v": 1630337179621
         },
         {
             "id": "a65d2f7d-48c0-4312-9785-578c7a3e8ade",
@@ -2759,7 +4150,7 @@
             "type": "static",
             "filename": "hair3.png",
             "inode": "3377699721298329",
-            "_v": 1630060549242
+            "_v": 1630337179621
         },
         {
             "id": "e75be474-5c6a-493f-a957-1b7626407640",
@@ -2768,7 +4159,7 @@
             "type": "animated",
             "filename": "hair_style_1.png",
             "inode": "2251799814060906",
-            "_v": 1630063069894
+            "_v": 1630337179621
         },
         {
             "id": "2051108b-c809-4393-a808-3d4675e90d7b",
@@ -2777,7 +4168,7 @@
             "type": "animated",
             "filename": "hair_style_2.png",
             "inode": "8162774325355777",
-            "_v": 1630063446039
+            "_v": 1630337179621
         },
         {
             "id": "8188d5b3-2cf3-45af-b7be-e63a16e046ac",
@@ -2786,7 +4177,7 @@
             "type": "animated",
             "filename": "hair_style_3.png",
             "inode": "6192449488401809",
-            "_v": 1630063856422
+            "_v": 1630337179621
         },
         {
             "id": "3014d7a7-39fc-4ccd-99c7-33d8b5506ee4",
@@ -2795,7 +4186,7 @@
             "type": "animated",
             "filename": "kingdom.png",
             "inode": "8725724278087558",
-            "_v": 1630071391432
+            "_v": 1630337179621
         },
         {
             "id": "16e93a84-25f6-4948-84cc-4c86fe89f026",
@@ -2804,7 +4195,7 @@
             "type": "animated",
             "filename": "start.png",
             "inode": "3940649674719465",
-            "_v": 1630060549242
+            "_v": 1630337179621
         },
         {
             "id": "d286f5fb-b40a-4a35-a06c-fe836756815e",
@@ -2813,7 +4204,7 @@
             "type": "static",
             "filename": "start1.png",
             "inode": "5629499534983425",
-            "_v": 1630060549242
+            "_v": 1630337179621
         },
         {
             "id": "19495a7e-df96-48b8-b359-2d6295fcfa86",
@@ -2822,7 +4213,7 @@
             "type": "static",
             "filename": "start2.png",
             "inode": "3659174698008841",
-            "_v": 1630060549242
+            "_v": 1630337179621
         },
         {
             "id": "23215472-dbff-43b0-990e-ef235c93126e",
@@ -2831,7 +4222,7 @@
             "type": "static",
             "filename": "start3.png",
             "inode": "3377699721298192",
-            "_v": 1630060549242
+            "_v": 1630337179621
         },
         {
             "id": "d460a629-ac73-4675-ad79-46b4e421f2d2",
@@ -2840,7 +4231,7 @@
             "type": "static",
             "filename": "start4.png",
             "inode": "3377699721298200",
-            "_v": 1630060549242
+            "_v": 1630337179621
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -2849,7 +4240,7 @@
             "type": "static",
             "filename": "static.png",
             "inode": "3940649674641328",
-            "_v": 1630060549243
+            "_v": 1630337179621
         },
         {
             "id": "b75dde2f-1b1d-49e7-9493-111141fe749f",
@@ -2858,7 +4249,7 @@
             "type": "static",
             "filename": "static_left.png",
             "inode": "5066549581520174",
-            "_v": 1630060549242
+            "_v": 1630337179621
         },
         {
             "id": "013c7796-d3e9-4530-83d3-5a355c89e52b",
@@ -2867,7 +4258,7 @@
             "type": "static",
             "filename": "static_right.png",
             "inode": "4503599628140700",
-            "_v": 1630060549243
+            "_v": 1630337179621
         },
         {
             "id": "493bb847-59de-4432-ba94-278def19f70a",
@@ -2876,7 +4267,7 @@
             "type": "animated",
             "filename": "team.png",
             "inode": "6192449488379243",
-            "_v": 1630069810468
+            "_v": 1630337179621
         },
         {
             "id": "bd6c59a9-7e90-4c27-94d5-910b62ec38ca",
@@ -2885,7 +4276,7 @@
             "type": "static",
             "filename": "team1.png",
             "inode": "10133099162328586",
-            "_v": 1630069836127
+            "_v": 1630337179621
         },
         {
             "id": "0647bbf4-be99-4a7b-b28b-f737bef5e0a6",
@@ -2894,7 +4285,7 @@
             "type": "static",
             "filename": "team2.png",
             "inode": "7599824371927679",
-            "_v": 1630069854756
+            "_v": 1630337179621
         },
         {
             "id": "03d2985f-7bd6-49c5-9135-502fb23d7674",
@@ -2903,7 +4294,7 @@
             "type": "static",
             "filename": "team3.png",
             "inode": "4785074604839515",
-            "_v": 1630069875800
+            "_v": 1630337179621
         },
         {
             "id": "64b3cef5-f606-491f-8497-6b408bc2e4a9",
@@ -2912,7 +4303,7 @@
             "type": "static",
             "filename": "team4.png",
             "inode": "4222124651419126",
-            "_v": 1630069894350
+            "_v": 1630337179621
         },
         {
             "id": "1d0f8675-6a38-42ea-bb28-ba098b1db11f",
@@ -2921,7 +4312,7 @@
             "type": "animated",
             "filename": "uk.png",
             "inode": "5629499534969829",
-            "_v": 1630070453041
+            "_v": 1630337179622
         },
         {
             "id": "6886a576-1bc2-40b3-99e8-ba0155c13bd2",
@@ -2930,7 +4321,7 @@
             "type": "static",
             "filename": "uk1.png",
             "inode": "7318349395235975",
-            "_v": 1630070473197
+            "_v": 1630337179622
         },
         {
             "id": "de64c73f-caa6-4dce-a101-8a77a182bf36",
@@ -2939,7 +4330,7 @@
             "type": "static",
             "filename": "uk2.png",
             "inode": "4785074604848050",
-            "_v": 1630070486595
+            "_v": 1630337179622
         },
         {
             "id": "3cbd3ef6-ba5d-4460-8cc8-74c3e5fb897b",
@@ -2948,7 +4339,7 @@
             "type": "animated",
             "filename": "uk_text.png",
             "inode": "2533274790771550",
-            "_v": 1630071350529
+            "_v": 1630337179621
         },
         {
             "id": "09a7d64c-b426-46d7-9578-d7f93ba0319f",
@@ -2957,7 +4348,7 @@
             "type": "actor",
             "filename": "united.png",
             "inode": "3377699721287175",
-            "_v": 1630071370753
+            "_v": 1630337179622
         }
     ],
     "palettes": [
@@ -3126,6 +4517,26 @@
                 "F8F8F8",
                 "F81000"
             ]
+        },
+        {
+            "id": "5c117628-1e65-44b2-9f9e-ba4e235e7b5c",
+            "name": "Brazil",
+            "colors": [
+                "201098",
+                "F8F800",
+                "F8F800",
+                "00B850"
+            ]
+        },
+        {
+            "id": "1e8937eb-8bb1-4fd8-924a-ce9dc614f8d1",
+            "name": "Palette 13",
+            "colors": [
+                "E8F8E0",
+                "F8F800",
+                "509878",
+                "E80800"
+            ]
         }
     ],
     "customEvents": [],
@@ -3136,7 +4547,7 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "3659174697929639",
-            "_v": 1630060549201
+            "_v": 1630337179087
         }
     ],
     "variables": [
@@ -3147,6 +4558,10 @@
         {
             "id": "1",
             "name": "Face"
+        },
+        {
+            "id": "2",
+            "name": "Team"
         }
     ],
     "settings": {
@@ -3155,9 +4570,9 @@
         "startY": 8,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 3716,
-        "worldScrollY": 1371.199951171875,
-        "zoom": 425,
+        "worldScrollX": 2557.60009765625,
+        "worldScrollY": 1365.5999755859375,
+        "zoom": 300,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
             "default-bg-1",
