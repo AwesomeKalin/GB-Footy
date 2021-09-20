@@ -10252,6 +10252,17 @@
                                                             ],
                                                             "false": [
                                                                 {
+                                                                    "id": "23e752a4-179f-4708-a634-d626cb93e7c4",
+                                                                    "command": "EVENT_SWITCH_SCENE",
+                                                                    "args": {
+                                                                        "sceneId": "ff6de5cc-5844-4a39-8777-d9f301fb1ab4",
+                                                                        "x": 8,
+                                                                        "y": 13,
+                                                                        "direction": "",
+                                                                        "fadeSpeed": "2"
+                                                                    }
+                                                                },
+                                                                {
                                                                     "id": "c043710f-8f39-41eb-a090-ae63bc8437bd",
                                                                     "command": "EVENT_END"
                                                                 }
@@ -10327,6 +10338,17 @@
                                                                 }
                                                             ],
                                                             "false": [
+                                                                {
+                                                                    "id": "8a3029b0-9ce9-4024-a418-d3e925552510",
+                                                                    "command": "EVENT_SWITCH_SCENE",
+                                                                    "args": {
+                                                                        "sceneId": "f79e2b99-46cd-4df1-8c89-6e917b684c21",
+                                                                        "x": 8,
+                                                                        "y": 13,
+                                                                        "direction": "",
+                                                                        "fadeSpeed": "2"
+                                                                    }
+                                                                },
                                                                 {
                                                                     "id": "f7918101-8860-4b62-a64f-533860ff922e",
                                                                     "command": "EVENT_END"
@@ -10422,6 +10444,17 @@
                                                             ],
                                                             "false": [
                                                                 {
+                                                                    "id": "709e62bd-7043-47f2-b573-7f6b592ad2b1",
+                                                                    "command": "EVENT_SWITCH_SCENE",
+                                                                    "args": {
+                                                                        "sceneId": "159775c2-87d2-4fa5-ac44-8021af774f14",
+                                                                        "x": 8,
+                                                                        "y": 13,
+                                                                        "direction": "",
+                                                                        "fadeSpeed": "2"
+                                                                    }
+                                                                },
+                                                                {
                                                                     "id": "a21d0b65-21be-49c1-991b-77f1098ec632",
                                                                     "command": "EVENT_END"
                                                                 }
@@ -10497,6 +10530,17 @@
                                                                 }
                                                             ],
                                                             "false": [
+                                                                {
+                                                                    "id": "24f50175-ecd4-433a-a8da-2e9216e9df88",
+                                                                    "command": "EVENT_SWITCH_SCENE",
+                                                                    "args": {
+                                                                        "sceneId": "6407cb53-64cd-46ae-a7d4-d5061927ca54",
+                                                                        "x": 8,
+                                                                        "y": 13,
+                                                                        "direction": "",
+                                                                        "fadeSpeed": "2"
+                                                                    }
+                                                                },
                                                                 {
                                                                     "id": "18a01f8e-68e4-434e-b0b8-7b0375b8ded9",
                                                                     "command": "EVENT_END"
